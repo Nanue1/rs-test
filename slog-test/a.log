@@ -1,0 +1,4 @@
+Sep 26 06:19:33.798 INFO Log Level: INFO, version: 0.9.0
+Sep 26 06:19:33.799 INFO Hello, Info!, version: 0.9.0
+Sep 26 06:19:33.799 WARN Hello, Warn!, version: 0.9.0
+Sep 26 06:19:33.799 ERRO Hello, Error!, version: 0.9.0

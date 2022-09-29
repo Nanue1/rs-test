@@ -1,0 +1,18 @@
+[package]
+name = "opentelemetry-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.5.16"
+anyhow = "1.0.65"
+clap = { version = "3.2.22", features = ["cargo", "derive"] }
+futures = "0.3.24"
+hyper = { version = "0.14.20", features = ["full"] }
+opentelemetry = "0.18.0"
+opentelemetry-prometheus = "0.11.0"
+prometheus = "0.13.2"
+tokio = { version = "1.21.1", features = ["full"] }
+tracing = "0.1.36"
